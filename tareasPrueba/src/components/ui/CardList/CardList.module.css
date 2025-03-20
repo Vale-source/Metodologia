@@ -1,0 +1,38 @@
+.containerCard {
+	width: 100%;
+	background-color: rgb(226, 233, 186);
+	border-radius: 0.6rem;
+	padding: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	color: rgba(19, 131, 112, 0.815);
+}
+
+.containerButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.containerButton button:hover{
+	cursor: pointer;
+	background-color: #e76464;
+	transition: transform 0.2s ease;
+}
+
+.containerCard h3:hover {
+	cursor: pointer;
+	color: rgba(17, 206, 174, 0.815);
+	transform: scale(1.1);
+	transition: transform 0.2s ease;
+}
+
+.containerButton button {
+	background-color: #e9a7a7;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.3rem;
+	transition: background-color 0.2s ease;
+}

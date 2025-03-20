@@ -1,0 +1,12 @@
+.containderHeader{
+	width: 100vw;
+	height: 8vh;
+	background-color: rgba(245, 245, 220, 0.788);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerTitleHeader{
+	margin-left: 4vw;
+}
